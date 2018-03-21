@@ -16,6 +16,7 @@ Example of sending an order to Jet's Pizza:
 - Body: {...}
 - URL: jets.com
 The Verb, Body, and URL are the actual request to Jet's
+
 Example of receiving a message back from Jet's
 - Response Code:
 - Body: 
