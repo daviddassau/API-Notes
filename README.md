@@ -27,3 +27,4 @@ Example of receiving a message back from Jet's
 ### REST
 - A specific kind of http based API
 - Stands for **Representational State Transfer**
+- The cornerstone of a restful api is being resource based. You are going to be representing a resource.
