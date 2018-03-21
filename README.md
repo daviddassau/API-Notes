@@ -23,3 +23,7 @@ Example of receiving a message back from Jet's
 - Response Headers:
 - Response Code:
 - Body: `{OrderId: ..., TimeReady: ...}`
+
+### REST
+- A specific kind of http based API
+- Stands for **Representational State Transfer**
