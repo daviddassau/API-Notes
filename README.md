@@ -25,10 +25,12 @@ Example of receiving a message back from Jet's
 - Response Code:
 - Body: `{OrderId: ..., TimeReady: ...}`
 
-### REST
+### REST & HTTP
 - A specific kind of http based API
 - Stands for **Representational State Transfer**
 - The cornerstone of a restful api is being resource based. You are going to be representing a resource.
 - Idempotency: no matter how many times you do something, the result will always be the same. Examples are `PUT`, `DELETE`, and `PATCH`.
-- Safe means that `GET` and `OPTIONS` are garunteed to not change anything.
+- Safe pertains to certain verbs like `GET` and `OPTIONS`, and how they are garunteed to not change anything.
 - `POST` is neither Idempotent nor Safe.
+- Example of a HTTP API: `Jets.com/api/orderpizza`
+- Example of a RESTful API: `Jets.com/api/orders` or `Jets.com/api/orders/1234`
