@@ -4,12 +4,12 @@ Publicly exposed part of your program, that can be used by other users
 
 ### Different parts to HTTP
 - Verbs
-  - GET
-  - PUT
-  - POST
-  - DELETE
-  - Patch: someone can submit part of an item, and it updates just the things submitted
-  - OPTIONS
+  - `GET`
+  - `PUT`
+  - `POST`
+  - `DELETE`
+  - `PATCH`: someone can submit part of an item, and it updates just the things submitted
+  - `OPTIONS`
   - There's a LOT more
 
 Example of sending an order to Jet's Pizza:
