@@ -35,3 +35,6 @@ Example of receiving a message back from Jet's
 - `POST` is neither Idempotent nor Safe.
 - Example of a HTTP API: `Jets.com/api/orderpizza`
 - Example of a RESTful API: `Jets.com/api/orders` or `Jets.com/api/orders/1234`
+
+- Cross Cutting Concerns: they go horizontal/sideways across the application
+  - Aspect oriented programming: ???
