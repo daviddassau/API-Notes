@@ -20,6 +20,11 @@ Example of sending an order to Jet's Pizza:
 
 The Verb, Body, and URL are the actual request to Jet's
 
+### 3 Main things for HTTP Response 
+1. Header
+2. Body
+3. Status
+
 Example of receiving a message back from Jet's
 - Response Headers:
 - Response Code:
