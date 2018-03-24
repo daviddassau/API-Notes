@@ -28,6 +28,7 @@ Example of receiving a message back from Jet's
 ### REST & HTTP
 - A specific kind of http based API
 - Stands for **Representational State Transfer**
+- HATEOAS
 - The cornerstone of a restful api is being resource based. You are going to be representing a resource.
 - Idempotency: no matter how many times you do something, the result will always be the same. Examples are `PUT`, `DELETE`, and `PATCH`.
 - Safe pertains to certain verbs like `GET` and `OPTIONS`, and how they are garunteed to not change anything.
